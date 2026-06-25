@@ -559,6 +559,38 @@
     </div>
   </div>
 
+  
+  <!-- Live playground -->
+  <section id="playground">
+    <div class="section-label">Live demo</div>
+    <h2 class="section-title">Generate an image, right now</h2>
+    <p class="section-desc">
+      This is the exact same Pollinations.ai image API your Discord server will use.
+      Type any prompt and see what Elfy would generate.
+    </p>
+    <div class="playground-box">
+      <p class="hint">Powered by <a href="https://pollinations.ai" target="_blank" style="color:var(--lavender);">Pollinations.ai</a> · Flux model · free &amp; open</p>
+      <div class="prompt-row">
+        <input
+          type="text"
+          class="prompt-input"
+          id="promptInput"
+          placeholder="e.g. a cyberpunk cat in neon rain…"
+          maxlength="300"
+        />
+        <button class="gen-btn" id="genBtn" onclick="generateImage()">Generate ✨</button>
+      </div>
+      <div class="image-result" id="imageResult">
+        <p class="placeholder-text">Your generated image will appear here 🌸<br><span style="font-size:.8rem;opacity:.6;">Try any creative prompt above</span></p>
+      </div>
+      <div class="pollinations-badge">
+        🌸 Built with
+        <a href="https://pollinations.ai" target="_blank">pollinations.ai</a>
+        — free AI image generation
+      </div>
+    </div>
+  </section>
+
   <!-- Features -->
   <section id="features">
     <div class="section-label">What it does</div>
@@ -600,38 +632,7 @@
       </div>
     </div>
   </section>
-
-  <!-- Live playground -->
-  <section id="playground">
-    <div class="section-label">Live demo</div>
-    <h2 class="section-title">Generate an image, right now</h2>
-    <p class="section-desc">
-      This is the exact same Pollinations.ai image API your Discord server will use.
-      Type any prompt and see what Elfy would generate.
-    </p>
-    <div class="playground-box">
-      <p class="hint">Powered by <a href="https://pollinations.ai" target="_blank" style="color:var(--lavender);">Pollinations.ai</a> · Flux model · free &amp; open</p>
-      <div class="prompt-row">
-        <input
-          type="text"
-          class="prompt-input"
-          id="promptInput"
-          placeholder="e.g. a cyberpunk cat in neon rain…"
-          maxlength="300"
-        />
-        <button class="gen-btn" id="genBtn" onclick="generateImage()">Generate ✨</button>
-      </div>
-      <div class="image-result" id="imageResult">
-        <p class="placeholder-text">Your generated image will appear here 🌸<br><span style="font-size:.8rem;opacity:.6;">Try any creative prompt above</span></p>
-      </div>
-      <div class="pollinations-badge">
-        🌸 Built with
-        <a href="https://pollinations.ai" target="_blank">pollinations.ai</a>
-        — free AI image generation
-      </div>
-    </div>
-  </section>
-
+  
   <!-- Commands -->
   <section id="commands">
     <div class="section-label">Slash commands</div>
