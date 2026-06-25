@@ -2,6 +2,8 @@
 
 A conversational Discord bot powered by **Google Gemini** for chat and **[Pollinations.ai](https://pollinations.ai)** for image generation. Elfy maintains per-channel memory, handles images and documents as attachments, and can generate or transform images on request.
 
+[![Try Now](https://img.shields.io/badge/Try%20Now-%F0%9F%8C%B8%20Live%20Demo-b19fdd?style=for-the-badge)](https://dmonink.github.io/Elfy-Image-Generator/)
+
 ---
 
 ## Features
