@@ -763,7 +763,7 @@
       try {
         const encoded = encodeURIComponent(prompt);
         // Use Pollinations.ai image API — same endpoint the Discord bot uses
-        const url = `https://image.pollinations.ai/prompt/${encoded}?model=flux&width=768&height=768&nologo=true&enhance=true&seed=${Date.now()}`;
+        const url = `https://image.pollinations.ai/prompt/${encoded}?model=nanobanana-pro&width=768&height=768&nologo=true&enhance=true&seed=${Date.now()}`;
 
         const img = new Image();
         img.onload = () => {
