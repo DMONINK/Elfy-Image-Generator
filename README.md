@@ -1,6 +1,6 @@
 # Elfy — Discord AI Chatbot
 
-A conversational Discord bot powered by **Google Gemini** for chat and **[Pollinations.ai](https://pollinations.ai)** for image generation. Elfy maintains per-channel memory, handles images and documents as attachments, and can generate or transform images on request.
+A conversational Discord bot powered by **[Google Gemini](https://ai.google.dev/gemini-api/docs/api-key)** for chat & **[Pollinations.ai](https://pollinations.ai)** for image generation. Elfy maintains per-channel memory, handles images and documents as attachments, and can generate or transform images on request.
 
 [![Try Now](https://img.shields.io/badge/Try%20Now-%F0%9F%8C%B8%20Live%20Demo-b19fdd?style=for-the-badge)](https://dmonink.github.io/Elfy-Image-Generator/)
 
@@ -11,6 +11,8 @@ A conversational Discord bot powered by **Google Gemini** for chat and **[Pollin
 - **Conversational chat** — Gemini-backed responses with persistent per-channel history across bot restarts
 - **Text-to-image generation** — routes image requests to Pollinations.ai (Flux model); Gemini first expands the prompt for better detail
 - **Image editing** — attach a photo and ask Elfy to transform it (anime, cartoon, painting, etc.) using Gemini's native image model
+
+  **Note:** Image editing will not work with free tier API, you'll need paid Gemini API for this to work.
 - **Multimodal inputs** — accepts images, audio, PDFs, code files, and CSVs as Discord attachments
 - **Custom personas** — `/forget [persona]` resets history and sets a new personality on the fly
 - **Tracked threads** — `/createthread` spawns a dedicated thread where Elfy responds to every message automatically
@@ -24,14 +26,14 @@ A conversational Discord bot powered by **Google Gemini** for chat and **[Pollin
 
 - Python 3.10+
 - A Discord bot token — [discord.com/developers/applications](https://discord.com/developers/applications)
-- A Google Gemini API key — [ai.google.dev](https://ai.google.dev) (free tier: up to 60 req/min)
-- A Pollinations.ai API key — [pollinations.ai](https://pollinations.ai) (required for authenticated image generation)
+- A Google Gemini API key — [Google AI Studio](https://aistudio.google.com/) (free tier: up to 60 req/min)
+- A Pollinations.ai API key — [Pollinations.ai](https://pollinations.ai) (required for authenticated image generation)
 
 ### 2. Clone and install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Discord-Gemini-Chatbot
-cd Discord-Gemini-Chatbot
+git clone https://github.com/DMONINK/Elfy-AI
+cd Elfy-AI
 pip install -r requirements.txt
 ```
 
