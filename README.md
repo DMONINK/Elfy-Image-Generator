@@ -50,7 +50,7 @@ POLLINATIONS_API_KEY=your_pollinations_api_key
 | Variable | Required | Description |
 |---|---|---|
 | `DISCORD_BOT_TOKEN` | ✅ | Bot token from the Discord developer portal |
-| `GOOGLE_AI_KEY` | ✅ | Gemini API key from ai.google.dev |
+| `GOOGLE_AI_KEY` | ✅ | Gemini API key from Google AI Studio |
 | `POLLINATIONS_API_KEY` | ✅ | Pollinations.ai key for authenticated image generation |
 
 ### 4. Run
